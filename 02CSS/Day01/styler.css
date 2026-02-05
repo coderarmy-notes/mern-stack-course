@@ -1,6 +1,6 @@
 
 /* Tag Elment selector */
-/* h1{
+h1{
     background-color: pink;
 }
 
@@ -12,26 +12,26 @@ h2{
     background-color: blue;
 } */
 
-/* id base selection # based selection */
+/* id base selection # based selection */ 
 
-/* #first{
+#first{
     background-color: blue;
 }
 
 #second{
     background-color: pink;
-} */
+}
 
 
 /* class based selection */
 
-/* .third{
+.third{
     background-color: green;
 }
 
 .fourth{
     background-color:blueviolet
-} */
+}
 
 /* group based selection */
 /* 
@@ -52,7 +52,7 @@ h2{
     background-color: #639747;
 } */
 
-/* font */
+/* font
 h1{
     font-size: 80px;
 }
@@ -63,8 +63,7 @@ ul{
 
 /* li{
     font-size: 2em;
-} */
-
+}
 html{
     font-size: 40px;
 }

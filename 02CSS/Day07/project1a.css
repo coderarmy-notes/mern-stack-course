@@ -14,11 +14,11 @@ body{
 .container{
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.129);
-    font-size: 40px;
+    font-size: 50px;
     padding: 10px;
-    color: white;
-    width: 70%;
-    border-radius: 5px;
+    color: red;
+    width: 80%;
+    border-radius: 40px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -34,6 +34,6 @@ p{
         margin-left: 100%;
     }
     to{
-        margin-left: -70%;
+        margin-left: -100%;
     }
 }

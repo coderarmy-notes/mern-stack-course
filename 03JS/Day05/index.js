@@ -2,7 +2,7 @@
 // let a = 10;
 // let b = 345.6821;
 // let c = b.toFixed(1);
-// console.log(typeof c);
+// console.log( c);
 
 // console.log(b.toPrecision(4));
 // console.log(b.toString());

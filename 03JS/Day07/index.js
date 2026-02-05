@@ -14,11 +14,11 @@
 
 // let arr = [100,30,"Rohit",true];
 
-// // console.log(arr[2]);
-// // console.log(typeof arr);
+// console.log(arr[2]);
+// console.log(typeof arr);
 
-// // arr[1] = 90;
-// // console.log(arr);
+// arr[1] = 90;
+// console.log(arr);
 
 // // push : Insert element at end
 
@@ -32,13 +32,13 @@
 // console.log(arr);
 
 
-// Starting add kar sakta hu, delete the element at first place
+// Add at starting index
 
 // arr.unshift(10);
 // arr.unshift(50);
 // console.log(arr);
 
-// // delete kar sakta hu
+// // delete the element from starting index
 
 // arr.shift();
 // console.log(arr);
@@ -46,7 +46,7 @@
 
 // let arr = [10,30,50,90,11];
 
-// for(let i=0;i<arr.length;i++){
+// for(let i=0; i<arr.length; i++){
 //     console.log(arr[i]);
 // }
 
@@ -60,8 +60,9 @@
 // arr2.push(30);
 
 // console.log(arr);
-// Object(non primitive): Copy by reference hote hai
-// Primitive: Copy by value
+
+// Object(non primitive) data type: Copy by reference hote hai / call by refrence 
+// Primitive data type: Copy by value / call by value
 
 // const arr = [10,30,50,90,11];
 // arr[2] = 30;
@@ -73,7 +74,7 @@
 
 // const arr = [10,30,50,90,11];
 // const arr2 = arr.slice(2,4);
-// console.log(arr);
+// console.log(arr2);
 // const arr3 = arr.splice(1,3,"Rohit",19);
 // console.log(arr3);
 
@@ -83,6 +84,7 @@
 
 // arr.push(arr2);
 // const arr3 = arr.concat(arr2,arr4);
+
 // const arr3 = [arr,arr2,arr4];
 
 // spread operator
@@ -94,7 +96,7 @@
 // const names = ["Alice", "Rohit","Bob","Mohit", "Charlie",];
 
 // console.log(names.toString());
-// console.log(names.join("-"));
+// console.log(names.join("/"));
 // console.log(names.lastIndexOf("Bob"));
 // console.log(names.includes("Bobs"));
 
@@ -106,7 +108,9 @@
 // const a = ["101","90","80","32","91"];
 // const arr = [10,"Rohit","Mohan",true];
 
+// a.sort();
 // arr.sort();
+// console.log(a);
 // console.log(arr);
 
 // const arr = [10,40,31,71,5,11];
@@ -123,8 +127,8 @@
 // a = 10
 // b = 31
 
-// -ve : pehle a aayega fr aayega
-// +ve: b aayega fr a aayge
+// -ve : pehle a aayega fr b aayega
+// +ve: b aayega fr a aayega
 
 // console.log(arr);
 
@@ -136,6 +140,6 @@
 // console.log(arr[3][2][1]);
 
 
-const a = [10,309,"Rohit",9.3, true];
-a.name = "Moahn";
-console.log(a);
+// const a = [10,309,"Rohit",9.3, true];
+// a.name = "Moahn";
+// console.log(a);
