@@ -130,8 +130,8 @@
 
 // function meet(callback){
 //     console.log("I am going to meet someone");
-//     // dance(); hardcode (Reusable)
-//     // code hota jisko marta
+    // dance(); hardcode (Reusable)
+    // code hota jisko marta
 //     callback();
 //     console.log("I have finished meeting");
 // }
